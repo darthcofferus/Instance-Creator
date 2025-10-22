@@ -80,4 +80,19 @@ Instance created: Test. Parameter: Hello, Instance Creator!
 ----------------
 ```
 ## Maven
-Empty...
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.darthcofferus</groupId>
+        <artifactId>instance-creator</artifactId>
+        <version>1.0</version>
+    </dependency>
+</dependencies>
+```
